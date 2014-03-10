@@ -3,7 +3,7 @@ This is an Android client and a Python server that emulates a (simple) bluetooth
 
 Getting started:
 
-1. Install & start the app on your android device. 
+1. Install and start the app on your android device. 
 
 2. Start the Python server (adbtm_server.py), either at the DOS prompt or by clicking on it. 
 
@@ -18,7 +18,7 @@ Getting started:
 (Note: The application requires Bluetooth, and will probably crash if Bluetooth is not already enabled. Just restart it once Bluetooth is enabled.)
 
 ## Installation ##
-On the server side you will need Python and the Pywin32.
+On the server side you will need Python and the Pywin32 library.
 
 ## Directory Layout ##
 ADBTM - This folder contains the Android client application (created using Eclipse).
