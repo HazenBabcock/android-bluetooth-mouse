@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+	android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+	<LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	 	<Button
+	        android:id="@+id/pageUpButton"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="?android:attr/selectableItemBackground"
+	        android:onClick="pageUpButton"
+	        android:text="@string/pageup_button"
+	        android:textColor="#FFFFFF"
+	        android:textSize="24sp" />
+	</LinearLayout>
+
+	<RelativeLayout
+	    android:id="@+id/relativeLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:orientation="horizontal" >
+	 	
+	    <org.hbabcock.adbtm.MouseView
+            android:contentDescription="@string/mouse_view"
+            android:id="@+id/mouseView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    	
+	<LinearLayout
+	    android:id="@+id/linearLayout2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+	 	<Button
+	        android:id="@+id/pageDownButton"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="?android:attr/selectableItemBackground"
+	        android:onClick="pageDownButton"
+	        android:text="@string/pagedown_button"
+	        android:textColor="#FFFFFF"
+	        android:textSize="24sp" />
+	</LinearLayout>
+	
+</LinearLayout>
