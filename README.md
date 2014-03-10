@@ -2,6 +2,7 @@
 This is an Android client and a Python server that emulates a (simple) bluetooth mouse. In its current form it will only work on Windows and it is geared towards Powerpoint.
 
 Getting started:
+
 1. Install & start the app on your android device. 
 
 2. Start the Python server (adbtm_server.py), either at the DOS prompt or by clicking on it. 
@@ -26,8 +27,11 @@ Python - This folder contains the Python server (adbtm_server.py).
 
 ## General notes ##
 1. Inspiration for this code comes from these sources:
-   [Remote-Bluetooth-Android](https://github.com/luugiathuy/Remote-Bluetooth-Android)
-   [Android Documentation](http://developer.android.com/guide/topics/connectivity/bluetooth.html)
-   [pybluez](https://code.google.com/p/pybluez/)
+
+   1. [Remote-Bluetooth-Android](https://github.com/luugiathuy/Remote-Bluetooth-Android)
+   
+   2. [Android Documentation](http://developer.android.com/guide/topics/connectivity/bluetooth.html)
+   
+   3. [pybluez](https://code.google.com/p/pybluez/)
 
 2. Questions should be addressed to Hazen Babcock (hbabcock _at_ mac.com).
