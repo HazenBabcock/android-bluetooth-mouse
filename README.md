@@ -26,12 +26,10 @@ ADBTM - This folder contains the Android client application (created using Eclip
 Python - This folder contains the Python server (adbtm_server.py).
 
 ## General notes ##
-1. Inspiration for this code comes from these sources:
+Inspiration for this code comes from these sources:
 
    1. [Remote-Bluetooth-Android](https://github.com/luugiathuy/Remote-Bluetooth-Android)
    
    2. [Android Documentation](http://developer.android.com/guide/topics/connectivity/bluetooth.html)
    
    3. [pybluez](https://code.google.com/p/pybluez/)
-
-2. Questions should be addressed to Hazen Babcock (hbabcock _at_ mac.com).
